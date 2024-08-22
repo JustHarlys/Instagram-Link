@@ -1,10 +1,10 @@
 import '../App.css'
 
-function Button() {
+function Button(props) {
     return(
         <div className='buttons-div'>
         <button className='social-button'>
-        <i className="fa-brands fa-instagram"></i>
+        <i className={`fa-brands ${props.class}`}></i>
         </button>
         </div>
     )
