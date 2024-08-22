@@ -4,7 +4,7 @@ export default [
         link: "https://www.instagram.com/justharlyss/"
     },
     {
-        app: "fa-twitter",
+        app: "fa-x-twitter",
         link: "https://x.com/JustHarlyss"
     }, 
     {
