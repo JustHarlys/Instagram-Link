@@ -1,6 +1,9 @@
 import './App.css'
 import Presentation from './Components/Presentation'
 import Button from './Components/Button'
+import Blog from './Components/Blog'
+import Newsletter from './Components/Newsletter'
+import Websites from './Components/Websites'
 import data from '../data'
 import { nanoid } from 'nanoid'
 
@@ -16,9 +19,13 @@ function App() {
     <main className='whole-app'>
     <Presentation/>
 
-    <div className='social-media'>
+    <p className='content-text'>Social Media</p>
+    <div className='content-container'>
       {social}
     </div>
+    <Websites />
+    <Blog />
+    <Newsletter />
     </main>
   )
 }

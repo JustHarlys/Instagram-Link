@@ -36,6 +36,7 @@ body {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-bottom: 60px;
 }
 
 .social-button {
@@ -43,23 +44,37 @@ body {
   padding: 15px;
   border: 3px solid #656a77;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.social-media {
+.content-container {
   display: flex;
   gap: 80px;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  height: 300px;
+  padding: 80px;
   background-color: #121b32;
   border: 4px solid #656a77;
   border-radius: 10px;
-  
+}
+
+.content-text {
+  color: white;
+  font-size: 20px;
+}
+
+
+.blog {
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter {
+  text-align: center;
+  padding: 20px;
 }
 
 .fa-brands {
   color: white;
-  font-size: 70px;
-  cursor: pointer;
+  font-size: 50px;
 }
