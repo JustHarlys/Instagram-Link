@@ -19,7 +19,6 @@ body {
 
 .harlys-image {
   width: 200px;
-  height: 200px;
   border-radius: 400px;
 }
 
@@ -98,7 +97,7 @@ body {
 
 
 .fa-instagram:hover {
-  background-color: #E1306C;
+  background-color: #aa1d4c;
   color: white;
   }
 
@@ -110,3 +109,19 @@ footer {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 414px)  {
+  .content-text {
+    text-align: center;
+  }
+
+  .social-media-container {
+    gap: 15px
+  }
+
+  .harlys-image {
+    width: 170px;
+    margin-left: 20px;
+  }
+}
+  
