@@ -2,7 +2,6 @@ import './App.css'
 import Presentation from './Components/Presentation'
 import Button from './Components/Button'
 import Blog from './Components/Blog'
-import Newsletter from './Components/Newsletter'
 import data from '../data'
 import { nanoid } from 'nanoid'
 
@@ -35,7 +34,8 @@ function App() {
 
     <Blog />
 
-    <Newsletter />
+
+    <footer className='content-text'>Created and Developed by Harlys Almanzar, 2024</footer>
 
     </main>
   )

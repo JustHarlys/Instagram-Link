@@ -1,10 +1,11 @@
 import '../App.css'
+import Picture from '../assets/linktree-img.jfif'
 
 function Presentation() {
     return(
         <main className='presentation-container'>
 
-        <img className="harlys-image" src="https://unavatar.io/github/justharlys" alt="Imagen de Harlys" />
+        <img className="harlys-image" src={Picture} alt="Imagen de Harlys" />
   
         <div className='harlys-info'>
         <h1 className='greetings'>Hola, Soy Harlys 👋</h1>
