@@ -9,6 +9,7 @@ function Presentation() {
         <div className='harlys-info'>
         <h1 className='greetings'>Hola, Soy Harlys 👋</h1>
         <p className='career-info'>Full Stack Developer</p>
+        <p className='career-info'>Based in Dominican Republic</p>
         </div>
   
       </main>
