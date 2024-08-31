@@ -17,9 +17,9 @@ function App() {
     <Presentation/>
 
 
-      <p className='content-text'>Portfolio (Coming Soon)</p>
+      <p className='content-text'>Portfolio</p>
     <div className='content-container'>
-      <a href=""><p className='content-text'>Portfolio</p></a>
+      <a href="https://harlys-portfolio.vercel.app/" target='_blank'><p className='content-text'>Portfolio</p></a>
     </div>
 
       <p className='content-text'>CV (Coming soon)</p>
